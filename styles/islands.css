@@ -1,7 +1,9 @@
 :root {
+    --blue: #11467D;
     --green:#074817;
     --white:#ffffff;
     font-family: "Raleway", sans-serif;
+    color:var(--blue);
 }
 
 body, header, main, footer, section, article, aside{
