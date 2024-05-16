@@ -16,7 +16,7 @@ body, header, main, footer, section, article, aside{
 main, header, nav ul, footer {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: lightgrey;
+   /* background-color: lightgrey; */
 }
 
 main section {
@@ -25,17 +25,21 @@ main section {
     padding: 20px;
 }
 /* the following classes will govern the sections and make them work within the grid*/
-.item1 {
+.item1, .iem8 {
     grid-column-start:1;
     grid-column-end:3;
 }
 
-.item7 {
-    grid-column-start:2;
-    Grid-column-end:4;
+.item6 {
+    grid-column-start:1;
+    Grid-column-end:3;
 }
+ .item7 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+ }
 
-.item8, .item9, .item10, .hero-orcas {
+.item9, .hero-orcas {
     grid-column-start:1;
     grid-column-end:4;
 }
@@ -47,8 +51,14 @@ header {
     text-align:center;
 }
 
+.logo1 {
+    height: 100px;
+    width: auto;
+    margin: 10px auto
+}
+
 header a, header p, nav a {
-    color:lightgrey;
+    color: var(--blue);
     text-decoration: none;
 }
 
@@ -76,7 +86,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-    background-color: lightgrey;
+    background-color: var(--green);
     color:var(--white);
 }
 
@@ -123,4 +133,8 @@ main section {
 
 .item2, .item4, .item6 {
     background-image: none;
+}
+
+footer {
+    padding: 5px;
 }
