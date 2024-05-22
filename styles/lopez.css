@@ -14,7 +14,7 @@ main {
     "first second sidebar"
     "first kaiser sidebar"
     "first last last"
-    "bottom 1 bottom 1 bottom 2"
+    "bottom bottom bottom"
 }
 
 .item1 {
@@ -53,9 +53,9 @@ main {
 }
 
 .item6 {
-    grid-area: bottom1;
+    grid-area: bottom;
 }
 
-.item7 {
+/* .item7 {
     grid-area: bottom2;
-}
+} */
