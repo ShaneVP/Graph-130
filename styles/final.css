@@ -1,9 +1,11 @@
 :root {
     --cyan: #AEDDDA;
-    --grey:#B1C9C7;
-    --dark:#2B3837;
+    --grey:#D9D9D9;
+    --dark:#231F20;
+    --blue: #60c6c7;
     font-family: "Roboto", sans-serif;
-    color:var(--blue);
+    color:var(--dark);
+    background-color: var(--grey);
 }
 
 body, header, main, footer, section, article, aside{
@@ -25,4 +27,76 @@ main aside div {
 .butterfly {
     height: 250px;
     padding-top: 100px;
+}
+
+.logo img {
+margin-top: 10px;
+height: 50px;
+width: auto;
+}
+
+header {
+    background-color: var(--cyan);
+    height: 200px;
+}
+
+.head {
+    background-color: var(--grey);
+    margin-top: 90px;
+    /* margin-left: 10px;
+    margin-right:10px; */
+}
+
+h3 {
+    margin-left: 50px;
+    font-size:25px;
+}
+
+footer {
+    background-color: var(--dark);
+}
+
+footer p {
+    color: var(--blue);
+    font-size:12px;
+}
+
+.phone {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.head-content p {
+    text-align: right;
+    padding-top:8px;
+    font-size: 20px;
+    padding-right: 50px;
+}
+
+.footer-logo {
+    margin-left: 10px;
+    color: var(--grey);
+}
+
+.embrace {
+    color: var(--grey);
+    padding-top:10px;
+}
+
+.dexter {
+    /* margin: 0px;
+    padding: 0px;
+    height: 100px;
+    width: auto; */
+    display: flex;
+}
+
+.dexter img {
+        flex-grow: 1; /* default 0 */
+      }
+
+.body-text {
+    box-sizing: border-box;
+    font-size: 12px;
 }
